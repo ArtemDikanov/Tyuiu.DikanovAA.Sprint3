@@ -12,7 +12,7 @@ namespace Tyuiu.DikanovAA.Sprint3.Task0.V20
             int stopValue = 14;
 
             Console.WriteLine(ds.GetMultiplySeries(value, startValue, stopValue));
-
+            //
             Console.ReadKey();
 
         }

@@ -18,7 +18,7 @@ namespace Tyuiu.DikanovAA.Sprint3.Task0.V20.Test
             double wait = 4;
 
             Assert.AreEqual(wait, res);
-
+            //
 
         }
     }
