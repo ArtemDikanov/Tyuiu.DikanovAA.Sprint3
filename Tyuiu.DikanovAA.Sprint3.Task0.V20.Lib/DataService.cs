@@ -6,13 +6,13 @@ namespace Tyuiu.DikanovAA.Sprint3.Task0.V20.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double sumSeries = 1;
-            
-            while (startValue <= stopValue)
+            int i;
+            for (i = startValue; i < stopValue; i++)
             {
-                sumSeries = sumSeries * (Math.Cos(value) + Math.Pow((startValue / 8), 3));
-                startValue++;
+                sumSeries = sumSeries * ((Math.Cos(value)) + (Math.Pow((i / 8), 3)));
             }
             return Math.Round(sumSeries, 3);
         }
     }
 }
+
