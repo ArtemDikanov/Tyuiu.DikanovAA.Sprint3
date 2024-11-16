@@ -7,7 +7,7 @@ namespace Tyuiu.DikanovAA.Sprint3.Task0.V20
         {
             DataService ds = new DataService();
 
-            int value = 5;
+            int value = 1;
             int startValue = 1;
             int stopValue = 14;
 
