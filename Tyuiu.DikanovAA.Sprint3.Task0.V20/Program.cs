@@ -10,8 +10,8 @@ namespace Tyuiu.DikanovAA.Sprint3.Task0.V20
             int value = 1;
             int startValue = 1;
             int stopValue = 14;
-
-            Console.WriteLine(ds.GetMultiplySeries(value, startValue, stopValue));
+            double res = ds.GetMultiplySeries(value, startValue, stopValue);
+            Console.WriteLine(res);
             
             Console.ReadKey();
 
