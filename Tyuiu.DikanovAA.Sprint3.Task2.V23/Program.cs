@@ -6,7 +6,7 @@ namespace Tyuiu.DikanovAA.Sprint3.Task2.V23
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            double value = Convert.ToDouble(Console.ReadLine());
+            double value = 1.5;
             int startValue = 1;
             int stopValue = 13;
 
