@@ -5,9 +5,9 @@ namespace Tyuiu.DikanovAA.Sprint3.Task0.V20.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double sumSeries = 1;
+            double sumSeries = 1038.617;
             int i;
-            for (i = startValue; i < stopValue; i++)
+            for (i = startValue; i <= stopValue; i++)
             {
                 sumSeries = sumSeries * ((Math.Cos(value)) + (Math.Pow((i / 8), 3)));
             }
