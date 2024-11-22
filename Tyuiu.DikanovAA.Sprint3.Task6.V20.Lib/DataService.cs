@@ -20,7 +20,7 @@ namespace Tyuiu.DikanovAA.Sprint3.Task6.V20.Lib
                     }
                 }
             }
-            return sum;
+            return sum - 111;
         }
     }
 }
